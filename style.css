@@ -1,0 +1,107 @@
+:root {
+  --heading: #32afb2;
+  --background-clr: #152b37;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 3rem;
+  font-family: sans-serif, serif;
+  background-image: url("background.png");
+  background-color: var(--background-clr);
+}
+
+.container {
+  width: 70%;
+  height: 150vh;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  float: left;
+  margin-right: 25px;
+}
+
+.name {
+  color: var(--heading);
+  /* border: 1px solid red; */
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 100px;
+}
+
+p {
+  font-size: 20px;
+  margin: 5px 0px 10px 0;
+  /* border: 1px solid red; */
+}
+
+.line1 {
+  height: 5px;
+  width: 100%;
+  background-color: var(--background-clr);
+  margin-top: 30px;
+  display: flex;
+}
+
+.details {
+  display: flex;
+}
+
+.in-touch {
+  width: 250px;
+  color: #333;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.in-touch p {
+  font-size: 15px;
+}
+
+.in-touch h3 {
+  color: var(--background-clr);
+}
+
+.in-touch h5 {
+  color: var(--heading);
+}
+
+.experience {
+  width: 490px;
+  color: #333;
+  margin: 10px 0px 0px 80px;
+  line-height: 20px;
+  /* border: 1px solid red; */
+}
+
+.experience h5 {
+  color: var(--heading);
+}
+
+.experience ul {
+  padding-right: 50px;
+}
+
+.line2 {
+  height: 5px;
+  width: 100%;
+  background-color: var(--background-clr);
+  margin-top: 10px;
+  display: flex;
+}
